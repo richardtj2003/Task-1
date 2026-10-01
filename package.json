@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free Node.js demo app with a Docker Hub CI/CD pipeline.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
